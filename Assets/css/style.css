@@ -214,7 +214,7 @@ html{
 #slider{
 /* min-height: 500px;
 background-color: #333; */
-    background: url('/Assets/images/slider1.jpg') top center / cover no-repeat;
+    background: url('https://krishuynh2707.github.io/theband/Assets/images/slider1.jpg') top center / cover no-repeat;
     margin-top: 46px;
     padding-top: 50%;
     position: relative;
