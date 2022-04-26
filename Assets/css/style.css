@@ -24,6 +24,14 @@
     margin-top: 16px !important
 }
 
+.mb-16 {
+    margin-bottom: 16px !important;
+}
+
+.ml-8 {
+    margin-left: -8px;
+}
+
 .col {
     float: left;
     padding: 0px 8px;
@@ -56,6 +64,7 @@
     margin-top: 18px;
     display: inline-block;
     border: none;
+    text-align: center;
 }
 
 .btn:hover{
@@ -81,7 +90,6 @@ html{
     left: 0;
     right:0;
     z-index: 1;
-    overflow: hidden;
 }
 
 .clear {
@@ -96,11 +104,20 @@ html{
     margin-left: 16px !important;
 }
 
+#header .menu-mobile-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
 
 #header .menu-mobile-btn,
 #header .search-button {
     float: right;
     padding: 0 23px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 #header .mobile-search-icon,
@@ -123,9 +140,9 @@ html{
     background-color: red;
 }
 
-#nav {
+/* #nav {
     position: absolute;
-}
+} */
 
 
 #nav li {
@@ -147,7 +164,7 @@ html{
     text-decoration: none;
     line-height: 46px;
     padding: 0 24px;
-    display: inline-block
+    display: block;
 }
 
 #nav > li:hover > a {
@@ -350,12 +367,21 @@ background-color: #333; */
 }
 
 .contact-content {
-    margin-top: 48px;
+    margin-top: 32px;
 }
 
 .contact-infor {
     font-size: 18px;
     line-height: 1.6;
+}
+
+.contact-infor a {
+    color: #101aef;
+    opacity: 0.8;
+}
+
+.contact-infor a:hover {
+    opacity: 1;
 }
 
 .contact-infor-icon {

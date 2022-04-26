@@ -1,5 +1,32 @@
 @media (max-width: 1024px) {
+    #header .search-button {
+        display: block;
+    }
+}
+/* tablet and mobile */
+@media (max-width: 1023px) {
+    .btn {
+        padding: 15px 16px;
+    }
+    .contact-content .form-control {
+        padding: 15px;
+     }
+    #footer .social-list {
+        font-size: 48px;
+    }
 
+    #footer .social-list a {
+        padding: 0 8px;
+    }
+
+    #footer .copy-right a {
+        padding: 16px 0px;
+        display: inline-block;
+    }
+
+    .contact-infor {
+        line-height: 2;
+    }
 }
 
 /*Tablet*/
@@ -9,7 +36,63 @@
 
 /*Mobile*/
 @media (max-width: 740px) {
+    .mobile-full-width,
+    .mobile-col-full {
+        width: 100%;
+    }
+
+    .mobile-mt-8 {
+        margin-top: 8px !important;
+    }
+    #nav {
+        display: block;
+    }
+
     #nav li {
+        display: block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    .subnav > li:hover > a {
+        background-color: #333;
+    }
+
+    #nav  > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        padding: 5px 41px;
+        color: white;
+    }
+
+    #content .member-item {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    #content .member-image {
+        width: 60%;
+    }
+
+    #tour .tour-place-mobile {
+        width: 100%;
+        margin-bottom: 16px !important;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .menu-mobile-btn {
         display: block;
     }
 
