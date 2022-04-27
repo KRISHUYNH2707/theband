@@ -65,6 +65,7 @@
     display: inline-block;
     border: none;
     text-align: center;
+    -webkit-appearance: none;
 }
 
 .btn:hover{
