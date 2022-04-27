@@ -65,6 +65,7 @@
     display: inline-block;
     border: none;
     text-align: center;
+    appearance: none;
     -webkit-appearance: none;
 }
 
